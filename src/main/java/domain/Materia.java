@@ -15,7 +15,7 @@ public class Materia {
         this.correlativas = new HashSet<>();
     }
 
-    public void agregarCorrelativa(Materia ads) {
-        this.correlativas.add(ads);
+    public void agregarCorrelativa(Materia materia) {
+        this.correlativas.add(materia);
     }
 }
