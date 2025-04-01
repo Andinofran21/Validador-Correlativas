@@ -21,8 +21,8 @@ public class Alumno {
         this.materiasAprobadas.add(materia);
     }
 
-    public boolean puedeCursar(Materia m) {
-        return this.materiasAprobadas.containsAll(m.getCorrelativas());
+    public Boolean puedeCursar(Materia materia) {
+        return this.materiasAprobadas.containsAll(materia.getCorrelativas());
         //return m.getCorrelativas().containsAll(this.getMateriasAprobadas());
     }
 }
